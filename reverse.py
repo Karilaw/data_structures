@@ -20,3 +20,13 @@ def repeated_str(n, s):
 
 a = repeated_str(10, 'lole')
 print(a)
+
+# Removing spaces from string
+
+
+def no_space(s):
+    return s.replace(' ', '')
+
+
+test = no_space('hfg kkfjjf ifikkf j')
+print(test)
