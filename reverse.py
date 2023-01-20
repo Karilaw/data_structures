@@ -9,3 +9,14 @@ def digitize(n):
 
 
 print(digitize(45678))
+
+# Write a function that accepts an integer n and a string s as parameters,
+#  and returns a string of s repeated exactly n times.
+
+
+def repeated_str(n, s):
+    return s * n
+
+
+a = repeated_str(10, 'lole')
+print(a)
